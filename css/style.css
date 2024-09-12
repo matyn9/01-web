@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500&family=Yeseva+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --coral: #E87774;
+    --coral-transparent: rgba(232,119,116,0.75);
+    --note-background: #EAE9F6;
+    --text-color: #332838;
+    --heading-font: 'Yeseva One', cursive;
+    --body-font: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #E87774;
+    height: 110px;
+
+
+}
+
+ul {
+    text-align: center;
+}
