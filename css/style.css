@@ -23,3 +23,13 @@
 ul {
     text-align: center;
 }
+
+li {
+    color: white;
+    font-size: medium;
+
+ }
+
+ .foto1 {
+    background-image: url(/images/banner.png);
+ }
