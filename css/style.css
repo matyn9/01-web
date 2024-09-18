@@ -15,21 +15,60 @@
 
 .navbar {
     background-color: #E87774;
-    height: 110px;
+    height: 195px;
+    
 
 
 }
-
-ul {
-    text-align: center;
-}
-
-li {
-    color: white;
-    font-size: medium;
-
+ .logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
  }
 
+.navigace {
+    font-size: 30px;
+    text-align: center;
+    gap: 100px;
+
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+
  .foto1 {
-    background-image: url(/images/banner.png);
+    background-image: url(..//images/banner.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    justify-content: center;
+    background-size: cover;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+ }
+
+ .otazka {
+    color: white;
+    background-color: rgba(232,119,116,0.75);
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    
+    
+ }
+
+ .k1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
  }
