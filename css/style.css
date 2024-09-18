@@ -1,74 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500&family=Yeseva+One&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
+
 :root {
-    --coral: #E87774;
-    --coral-transparent: rgba(232,119,116,0.75);
-    --note-background: #EAE9F6;
-    --text-color: #332838;
-    --heading-font: 'Yeseva One', cursive;
-    --body-font: 'Poppins', sans-serif;
+   --coral: #E87774;
+   --coral-transparent: rgba(232, 119, 116, 0.75);
+   --note-background: #EAE9F6;
+   --text-color: #332838;
+   --heading-font: 'Yeseva One', cursive;
+   --body-font: 'Poppins', sans-serif;
 }
 
 .navbar {
-    background-color: #E87774;
-    height: 195px;
-    
+   background-color: #E87774;
+   height: 320px;
+
 
 
 }
- .logo {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
- }
+
+.nav {
+   padding-bottom: 30px;
+}
+
+.logo {
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+
+}
 
 .navigace {
-    font-size: 30px;
-    text-align: center;
-    gap: 100px;
+   font-size: 20px;
+   text-align: center;
 
-    
+
+
+
 }
 
 a {
-    color: white;
-    text-decoration: none;
-   
+   color: white;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+
+
 }
 
 
- .foto1 {
-    background-image: url(..//images/banner.png);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-repeat: no-repeat;
-    height: 300px;
-    justify-content: center;
-    background-size: cover;
-    padding-left: 20px;
-    padding-right: 20px;
-    
- }
+.foto1 {
+   background-image: url(..//images/banner.png);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-repeat: no-repeat;
+   height: 300px;
+   justify-content: center;
+   background-size: cover;
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-top: 16px;
+   padding-bottom: 16px;
 
- .otazka {
-    color: white;
-    background-color: rgba(232,119,116,0.75);
-    padding: 10px;
-    font-size: 40px;
-    text-align: center;
-    
-    
- }
 
- .k1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
- }
+}
+
+.otazka {
+   color: white;
+   background-color: rgba(232, 119, 116, 0.75);
+   padding: 10px;
+   font-size: 40px;
+   text-align: center;
+   font-family: 'Yeseva One' cursive;
+
+
+}
+
+.prohlednete {
+   text-align: center;
+   padding: 40px;
+   padding-top: 30px;
+   font-size: 35px;
+   color: #E87774;
+   font-family: 'Yeseva One' cursive;
+}
+
+.container {
+   padding-left: 30px;
+   padding-right: 30px;
+   
+}
+
+.k1, .k2, .k3 {
+   height: 225px;
+   padding-top: 270px;
+   padding-bottom: 40px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+
+}
+
+
+.jmeno {
+   text-align: center;
+   font-size: 28px;
+   padding: 5px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.text {
+   padding-left: 52px;
+   padding-right: 52px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   text-align: center;
+}
